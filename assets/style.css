@@ -36,6 +36,7 @@ body {
     border-radius: 5px;
 }
 
+/* styles the top header*/ 
 .info_box .info_title {
     height: 60px;
     width: 100%;
@@ -49,5 +50,45 @@ body {
 
 .info_box .info_list {
     padding: 15px 35px;
-    
+}
+
+.info_box .info_list .info {
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+/* changes the "20 seconds" in the first list */
+.info_box .info_list .info span {
+    font-weight: 600;
+    color: rgb(94, 131, 7);
+}
+
+.info_box .buttons {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+    border-top: 1px solid grey;
+}
+
+.info_box .buttons button {
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid transparent;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buttons button.restart {
+    color: rgb(94, 131, 7);
+    border-color: rgb(94, 131, 7);
+}
+
+.buttons button.quit {
+    color: rgb(94, 131, 7);
+    border-color: rgb(94, 131, 7);
 }
