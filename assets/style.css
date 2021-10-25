@@ -9,7 +9,8 @@ body {
     background: rgb(94, 131, 7);
 }
 
-.start_btn {
+.start_btn, 
+.info_box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -27,4 +28,26 @@ body {
     border-radius: 5px;
     background: #fff;
     cursor: pointer;
+}
+
+.info_box {
+    width: 540px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.info_box .info_title {
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info_box .info_list {
+    padding: 15px 35px;
+    
 }
