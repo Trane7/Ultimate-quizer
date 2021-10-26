@@ -15,10 +15,9 @@ username.addEventListener('keyup', () => {
 
 saveHighScore = e => {
     e.preventDefault()
-
     const score = {
         score: mostRecentScore,
-        name: username.vaule
+        name: username.value
     }
 
     highScores.push(score)
