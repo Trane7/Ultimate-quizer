@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-body {
+/*body {
     background: rgb(94, 131, 7);
-}
+}*/
 
 .start_btn, 
 .info_box,

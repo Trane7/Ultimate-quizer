@@ -5,12 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/style.css">
+    
     <title>Ultimate Quizer!</title>
 </head>
 
 <body>
-    
+    <header>
+        <div class="title">Ultimate JavaScript Quiz</div>
+        <div class="timer">
+            <div class="time_text">Time Remaining</div>
+            <div class="timer_sec">20</div>
+        </div>        
+    </header>
+
     <!-- Start button -->
     <div class="start_btn"><button>Start Quiz</button></div>
 
@@ -34,33 +43,28 @@
 
     <!-- Quiz Questions -->
     <div class="quiz_box">
-        <header>
-            <div class="title">Ultimate JavaScript Quiz</div>
-            <div class="timer">
-                <div class="time_text">Time Remaining</div>
-                <div class="timer_sec">20</div>
-            </div>        
-        </header>
+        
         <section>
             <div class="que_text">
                 <span>Inside which HTML element do we put the JavaScript?</span>
             </div>
-            <div class="option_list">
-                <div class="option">
+            <form class="option_list">
+                <input class="option" type="checkbox">
                     <span>Script</span>
-                    <div class="icon tick"><i class="fas fa-check"></i></div>
-                </div>
-                <div class="option">
+                    <label class="icon tick"></label>
+                    <!-- use this for each -->
+                <!-- </input> -->
+                <input class="option" type="checkbox">
                     <span>JS</span>
-                    <div class="icon cross"><i class="fas fa-times"></i></div>
-                </div>
-                <div class="option">
+                    <div class="icon cross"></div>
+                </input>
+                <input class="option" type="checkbox">
                     <span>JavaScript</span>
-                </div>
-                <div class="option">
+                </input>
+                <input class="option" type="checkbox">
                     <span>Scripting</span>
-                </div>
-            </div>
+                </input>
+            </form>
         </section>
 
         <!-- Quiz Questions Footer -->
