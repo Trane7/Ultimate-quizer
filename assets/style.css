@@ -10,12 +10,14 @@ body {
 }
 
 .start_btn, 
-.info_box {
+.info_box,
+.quiz_box {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, -50%);
 }
+
 
 /* Start Button Styling */
 .start_btn button {
@@ -79,6 +81,7 @@ body {
     width: 100px;
     border: 1px solid transparent;
     background: #fff;
+    border-radius: 5px;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
@@ -102,4 +105,57 @@ body {
 .buttons button.quit:hover {
     color: #fff;
     background: rgb(94, 131, 7);
+}
+
+.quiz_box {
+    width: 550px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.quiz_box header {
+    height: 70px;
+    padding: 0 30px;
+    background: #fff;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px 5px 0 0;
+}
+
+.quiz_box header .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.quiz_box header .timer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 145px;
+    height: 45px;
+    background: #cce5ff;
+    border: 1px solid #b8daff;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
+.quiz_box header .timer .time_text {
+    font-weight: 400;
+    font-size: 17px;
+    user-select: none;
+}
+
+.quiz_box header .timer .timer_sec {
+    font-size: 18px;
+    font-weight: 500;
+    background: rgb(94, 131, 7);
+    height: 30px;
+    width: 45px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(94, 131, 7);
+    user-select: none;
 }
