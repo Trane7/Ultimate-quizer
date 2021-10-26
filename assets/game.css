@@ -37,6 +37,36 @@ body {
 }
 
 
+/* Heads up Display*/
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#questionBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid turquoise;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#questionBarFull {
+    height: 100%;
+    background: turquoise;
+    width: 0%;
+}
+
 
 @media screen and (max-width: 768px) {
     .choice-container {
