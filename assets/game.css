@@ -29,7 +29,7 @@ body {
 }
 
 .correct {
-    background: linear-gradient(32deg, lawngreen, 0%, black) 100%;
+    background: linear-gradient(32deg, lawngreen, 0%, turquoise) 100%;
 }
 
 .incorrect {
