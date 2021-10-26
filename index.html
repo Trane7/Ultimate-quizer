@@ -5,75 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/style.css">
-    
+    <script src="https://kit.fontawesome.com/6b26852f8b.js" crossorigin="anonymous"></script>
     <title>Ultimate Quizer!</title>
 </head>
-
 <body>
-    <header>
-        <div class="title">Ultimate JavaScript Quiz</div>
-        <div class="timer">
-            <div class="time_text">Time Remaining</div>
-            <div class="timer_sec">20</div>
-        </div>        
-    </header>
-
-    <!-- Start button -->
-    <div class="start_btn"><button>Start Quiz</button></div>
-
-    <!-- Info Box -->
-    <div class="info_box">
-        <div class="info_title">
-            <span>Rules of Quiz</span>
+    <div class="container">
+        <div id="home" class="flex-column flex-center">
+            <h1>Who will be Victorious?</h1>
+            <a href="/game.html" class="btn">Start</a>
+            <a href="/highscore.html" id="highscore-btn" class="btn">High Score<i class="fas fa-crown"></i></a>
         </div>
-        <div class="info_list">
-            <div class="info">1. You will only have <span>20 seconds</span> for each question.</div>
-            <div class="info">2. Once an answer is selected, it cannot be unselected!</div>
-            <div class="info">3. Once the timer is up you can't click an option.</div>
-            <div class="info">4. You have to finish the quiz once started.</div>
-            <div class="info">5. Gain the highest score by answering all the questions correctly!</div>
-        </div>
-        <div class="buttons">
-            <button class="quit">Exit Quiz</button>
-            <button class="restart">Continue</button>
-        </div>
-    </div>
-
-    <!-- Quiz Questions -->
-    <div class="quiz_box">
-        
-        <section>
-            <div class="que_text">
-                <span>Inside which HTML element do we put the JavaScript?</span>
-            </div>
-            <form class="option_list">
-                <input class="option" type="checkbox">
-                    <span>Script</span>
-                    <label class="icon tick"></label>
-                    <!-- use this for each -->
-                <!-- </input> -->
-                <input class="option" type="checkbox">
-                    <span>JS</span>
-                    <div class="icon cross"></div>
-                </input>
-                <input class="option" type="checkbox">
-                    <span>JavaScript</span>
-                </input>
-                <input class="option" type="checkbox">
-                    <span>Scripting</span>
-                </input>
-            </form>
-        </section>
-
-        <!-- Quiz Questions Footer -->
-        <footer>
-            <div class="total_que">
-                <span><p>2</p><p>Of</p><p>5</p>Questions</span>
-            </div>
-            <button class="next-btn">Next Question</button>
-        </footer>
     </div>
 
 </body>
